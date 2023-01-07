@@ -1,0 +1,148 @@
+.orange {
+    background-color: #FDC180;
+    width: 100%;
+}
+
+.orange .content {
+    max-width: 1000px;
+}
+
+section#sobre p {
+    padding-top: 12px;
+    text-align: justify;
+    text-indent: 28px;
+    font-size: 16px;
+}
+
+section#sobre h2 {
+    text-align: center;    
+}
+
+section#sobre .container {
+    display: flex;
+}
+
+.separation {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.block-to-left,
+.block-to-right {
+    align-items: center;
+}
+
+.block-to-left .text {
+    margin-left: 12px;
+}
+
+.block-to-right .text {
+    margin-right: 12px;
+}
+
+.center {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#project .content {
+    padding: 36px 0;
+}
+
+#project .content h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+#project .content p {
+    text-align: justify;
+    text-indent: 28px;
+    padding-top: 16px;
+}
+
+#history #firstContent {
+    align-items: center;
+    max-width: 1000px;
+}
+
+#history #firstContent #textFirstContent {
+    margin-right: 16px;
+}
+
+#rewards h1 {
+    font-size: 28px;
+    text-align: center;
+    padding: 12px 0;
+}
+
+#rewards h2 {
+    font-size: 22px;
+    margin: 8px 0;
+}
+
+section#sobre #rewards p {
+    padding-top: 0;
+}
+
+#rewards .content #cards {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 24px;
+}
+
+#rewards .content #cards .cardNoticia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+#best-plates {
+    padding-bottom: 24px;
+}
+
+#best-plates .separation {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+#history .imagem {
+    min-width: 450px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+#history .imagem img {
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#rewards .imagem {
+    min-width: 300px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+#rewards .imagem img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#best-plates .imagem {
+    min-width: 350px;
+    height: 250px;
+    border: 1px solid black;
+}
+
+#best-plates .imagem img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}

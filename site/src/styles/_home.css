@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 100vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  position: relative;
+  background-color: #fdfdfd;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+
+.App-header p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.App-link {
+  color: #040404;
+}
+
+.App .button {
+  display: inline-block;
+  border-radius: 14px;
+  background-color: #808080;
+  border: none;
+  color: #808080;
+  text-align: center;
+  font-size: 22px;
+  padding: 20px;
+  width: 200px;
+  cursor: pointer;
+  margin: auto;
+}
+
+section#button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 250px;
+}
+
+button#reservar {
+  padding: 20px 80px;
+  background-color: lightgray;
+  border-radius: 40px;
+  font-size: 24px;
+}
+
+section#imagem {
+  min-width: 1000px;
+  height: 700px;
+  margin: 0 auto;
+}
+
+section#imagem {
+  width: 1000px;
+  height: 700px;
+  object-fit: cover;
+  object-position: center;
+}
+
+#location iframe {
+  width: 100%;
+  height: 450px;
+}

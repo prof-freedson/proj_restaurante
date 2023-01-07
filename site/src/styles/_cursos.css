@@ -1,0 +1,127 @@
+section#cursos {
+    min-height: 62.5rem;
+    background-color: #E9E9E9;
+}
+
+section#cursos ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 20px;
+}
+
+.cardCurso {
+    display: flex;
+    width: 980px;
+    min-height: 200px;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.7);
+}
+
+.cardCurso ~ .cardCurso {
+    margin-top: 16px;
+}
+
+.cardCurso .imagem {
+    min-width: 17rem;
+    height: 12.5rem;
+}
+
+.cardCurso .imagem img {
+    width: 272px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.cardCurso .text-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #D8D8D8;
+}
+
+.cardCurso .text-icons .text {
+    padding-top: 8px;
+    padding-left: 8px;
+}
+
+.cardCurso .text-icons .text p {
+    text-align: justify;
+    font-size: 1rem;
+
+    height: 5.375rem;
+    margin: 0.5rem 2rem 0rem 0.5rem;
+    overflow-y: scroll;
+}
+
+.cardCurso .text-icons .items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardCurso .text-icons .items .icons {
+    display: flex;
+    justify-content: flex-start;
+    margin: 4px 0;
+    padding-bottom: 0px;
+}
+
+.cardCurso .text-icons .items .icons .icon {
+    display: flex;
+    height: 18px;
+    margin: 0 8px;
+}
+
+.cardCurso .text-icons .items .icons .icon .icon-image {
+    width: 18px;
+    margin-right: 5px;
+}
+
+
+.cardCurso .text-icons .items .icons .icon p {
+    width:60px;
+    height: 24px;
+    line-height: 18px;
+    font-size: 14px;
+    vertical-align: center;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.cardCurso .text-icons .items .icons .icon:first-child p {
+    width: 128px;
+}
+
+.cardCurso .text-icons .items .icons .icon:nth-child(2) p {
+    width: 90px;
+}
+
+.cardCurso .text-icons .items .icons .icon p:nth-child(n+2) {
+    text-align: left;
+}
+.cardCurso .text-icons {
+    justify-content:space-between;
+}
+.text-icons .items .button {
+    width: 100%;
+}
+.text-icons .items .button button {
+    padding: 0.5rem 1rem;
+    margin: 0;
+    margin-top: 0.1rem;
+    border: 0;
+    border-top: 1px solid black;
+    border-radius: 0;
+    width: 100%;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor:pointer;
+}

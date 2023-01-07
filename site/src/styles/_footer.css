@@ -1,0 +1,64 @@
+.footer {
+    width: 100%;
+    background-color: #004c94;
+}
+
+.foo {
+    margin: 0 auto;
+    bottom: 0;
+    max-width: 1000px;
+    left: 25%;
+    right: 25%;
+}
+.fema {
+  padding-left: 39%;
+  color: aliceblue;
+  left: 50%;
+  right: 50%;
+}
+.foo .text {
+  display: flex;
+  justify-content: space-between;
+}
+.endereco {
+  padding-right: 15px;
+  font-size: 19px;
+  color: white;
+  padding-left: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.link a {
+  color: rgb(248, 250, 251);
+  font-size: 25px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.dis {
+  padding-left: 50px;
+}
+.sociais {
+  display: flex;
+  justify-content: right;
+  padding-right: 33px;
+}
+
+.ins {
+  width: 50px;
+  height: 50px;
+}
+.face {
+  width: 50px;
+  height: 50px;
+}
+.senac {
+  padding-left: 40%;
+
+  width: 140px;
+  height: 80px;
+}
+
+/* footer {
+    height: 200px;
+    background-color: #222;
+} */

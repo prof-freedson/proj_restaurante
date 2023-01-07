@@ -1,0 +1,344 @@
+@media(max-width: 1400px) {
+    /*------------------------ CARDÁPIO ------------------------*/
+    section#cardapio nav ul {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        width: 696px;
+    }
+}
+@media(max-width: 1200px) {
+    /*------------------------ CARDÁPIO ------------------------*/
+    section#cardapio nav ul {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+@media(max-width: 991px) {
+    /*------------------------ CARDÁPIO ------------------------*/
+    section#cardapio nav ul {
+        align-items: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    nav ul li .container,
+    nav ul li .container img {
+        max-width: 330px;
+        max-height: 330px;
+    }
+    .prato:nth-child(3n+1) {
+        clear: none;
+    }
+    .prato:nth-child(2n+1) {
+        clear: left;
+    }
+    .pratos li:nth-child(even) {
+        margin-left: calc(13.125rem / 3);
+    }
+    .prato:nth-child(odd) {
+        margin-left: 0;
+    }
+    .prato:nth-child(2n) ~ .prato {
+        margin-top: 1rem;
+    }
+
+    /*------------------------ CURSOS ------------------------*/
+    .cardCurso {
+        width: 100%;
+    }
+    .cardCurso ~ .cardCurso {
+        margin-top: 1rem;
+    }
+    .cardCurso .text-icons .text h2 {
+        text-align: center;
+    }
+    .cardCurso .text-icons .text p {
+        height: 4rem;
+        margin: 0.5rem;
+    } 
+    .cardCurso .text-icons .items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .cardCurso .text-icons .items .icons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding-bottom: 0.625rem;
+    }
+    .cardCurso .text-icons .items .icons .icon {
+        display: flex;
+        margin: 0.1rem 0.25rem;
+    }
+    .cardCurso .text-icons {
+        justify-content:space-between;
+        padding: 0;
+    }
+    .text-icons .items .button {
+        width: 100%;
+    }
+    .text-icons .items .button button {
+        padding: 0.5rem 1rem;
+        margin: 0;
+        margin-top: 0.1rem;
+        border: 0;
+        border-top: 1px solid black;
+        border-radius: 0;
+        width: 100%;
+        background-color: orange;
+        color: white;
+        font-weight: bold;
+        cursor:pointer;
+    }
+}
+
+@media(max-width: 950px) {
+    /*------------------------ HEADER ------------------------*/
+    .heade {
+        max-width: none;
+        left: 0%;
+        right: 0%;
+    }
+    .logo {
+        width: 70px;
+        height: 50px;
+    }
+    .heade #navLinks a {
+        font-size: 16px;
+    }
+    /*------------------------ FOOTER------------------------*/
+    .foo {
+        max-width: none;
+        background-color: #004c94;
+        bottom: 0;
+        left: 0%;
+        right: 0%;
+    }
+    .sociais {
+        display: flex;
+    }
+    .endereco {
+        font-size: 18px;
+    }
+    .link {
+        font-size: 20px;
+    }
+    .dis {
+        padding-left: 10px;
+    }
+    .senac {
+        width: 60px;
+        height: 40px;
+
+        padding-left: 40%;
+    }
+    .fema {
+        width: 30px;
+        height: 20px;
+        padding-left: 37%;
+        font-size: 16px;
+    }
+    .ins {
+        width: 38px;
+        height: 38px;
+    }
+    .face {
+        height: 38px;
+        width: 38px;
+    }
+}
+
+/* Estilos para dispositivos de tela pequena */
+@media (min-width: 768px) {
+    .App-logo {
+      font-size: 16px;
+    }
+}
+
+/* Estilos para dispositivos de tela grande */
+@media (max-width: 769px) {
+    .App-logo {
+      font-size: 14px;
+    }
+}
+
+@media(max-width: 700px) {
+    /*------------------------ CARDÁPIO ------------------------*/
+    nav ul li .container,
+    nav ul li .container img {
+        max-width: 18rem;
+        max-height: 18rem;
+    }
+    nav ul li .container .text p {
+        font-size: 26px;
+    }
+
+    /*------------------------ CURSOS ------------------------*/
+    .cardCurso .text-icons .text {
+        padding-top:  6px;
+        padding-left: 6px;
+    }
+    .cardCurso .text-icons .text h2 {
+        font-size: 18px;
+    }
+    .cardCurso .text-icons .text p {
+        font-size: 14px;
+        padding: 0 0.2rem;
+        height: 4rem;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media(max-width: 600px) {
+    /*------------------------ CARDÁPIO ------------------------*/
+    section#cardapio nav ul {
+        width: 100%;
+    }
+    section#cardapio nav ul li {
+        float: left;
+    }
+    section#cardapio nav ul li:nth-child(1n) {
+        clear: left;
+    }
+    section#cardapio nav ul li:nth-child(2n+2) {
+        margin-left: 0;
+    }
+    section#cardapio nav ul li:nth-child(1n) ~ li {
+        margin-top: 34px;
+    }
+    nav ul li .container,
+    nav ul li .container img {
+        max-width: 350px;
+        max-height: 160px;
+    }
+    nav ul li .container .text p {
+        font-size: 26px;
+    }
+    .prato:nth-child(2n+1) {
+        clear: none;
+    }
+    .prato:nth-child(1n+1) {
+        clear: left;
+    }
+    .pratos li:nth-child(even) {
+        margin-left: 0;
+    }
+    .pratos li ~ li {
+        margin-top: 1rem;
+    }
+
+    /*------------------------ CURSOS ------------------------*/
+    .cardCurso .text-icons .text {
+        padding-top:  2px;
+        padding-left: 0px;
+    }
+    .cardCurso .text-icons .text h2 {
+        font-size: 18px;
+    }
+    .cardCurso .text-icons .text p {
+        font-size: 14px;
+        padding: 0 0.2rem;
+        height: 3rem;
+        margin-bottom: 0.5rem;
+    }
+    .cardCurso .text-icons .items .icons .icon:first-child p {
+        width: 3.5rem;
+    }
+    .cardCurso .text-icons .items .icons .icon:nth-child(2) p {
+        width: 4rem;
+    }
+    .cardCurso .imagem {
+        min-width: 14rem;
+        max-width: 16rem;
+        height: 12.5rem;
+    }
+    .cardCurso .imagem img {
+        width: 16rem;
+        height: 12.5rem;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+@media(max-width: 480px) {
+    /*------------------------ CARDÁPIO ------------------------*/
+    section#cardapio nav ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    section#cardapio nav ul {
+        margin-left: 0;
+    }
+    nav ul li .container,
+    nav ul li .container img {
+        max-width: 100%;
+        max-height: 145px;
+    }
+    nav ul li .container,
+    nav ul li .container img,
+    nav ul li .container .text {
+        border-radius: 0;
+    }
+    nav ul li .container .text p {
+        font-size: 20px;
+    }
+    .prato {
+        box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.7);
+        width: 100%;
+    }
+    .pratos li,
+    .prato > .imagem,
+    .prato > .imagem > img {
+        margin: 0;
+        width: 100%;
+    }
+
+
+    /*------------------------ CURSOS ------------------------*/
+    .cardCurso .text-icons .items .icons {
+        margin: 0;
+        padding: 0;
+    }
+    .cardCurso .text-icons .items .icons .icon p {
+        width: 0.2rem;
+    }
+    .cardCurso .text-icons .items .icons .icon:first-child p {
+        width: 0.5rem
+    }
+    .cardCurso .text-icons .items .icons .icon:nth-child(2) p {
+        width: 1rem;
+    }
+    .cardCurso .text-icons .text {
+        padding-top: 0;
+        padding-left: 0;
+    }
+    .cardCurso .text-icons .text h2 {
+        font-size: 16px;
+    }
+    .cardCurso .text-icons .text p {
+        margin: 1px 0;
+        height: 3rem;
+        font-size: 14px;
+    }
+    .cardCurso .imagem {
+        min-width: 10rem;
+        max-width: 16rem;
+        height: 12.5rem;
+    }
+    .cardCurso .imagem img {
+        width: 16rem;
+        height: 12.5rem;
+        object-fit: cover;
+        object-position: center;
+    }
+    .text-icons .items .button button {
+        font-size: 14px;
+    }
+}

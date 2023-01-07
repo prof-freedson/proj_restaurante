@@ -1,0 +1,58 @@
+.heade {
+    left: 25%;
+    right: 25%;
+    background-image: url('../assets/senac1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    height: 250px;
+    margin: 0 auto; 
+}
+
+.logo {
+  width: 150px;
+  height: 120px;
+}
+
+.logo img {
+    width: 150px;
+    height: 120px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.cabe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+#navLinks {
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+    border-radius: 20px;
+}
+
+.heade #navLinks a {
+  padding-top: 4px;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 23px;
+  font-weight: bold;
+  color: #000;
+  text-shadow: 1px 2px 2px 1px black;
+}
+
+/* header {
+    height: 100px;
+    background-color: #222;
+} */

@@ -1,0 +1,181 @@
+section#cardapio {
+    position: relative;
+    min-height: 50rem;
+    background-color: #E9E9E9;
+}
+
+section#cardapio #options {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 900px;
+    padding-bottom: 104px;
+}
+
+section#cardapio nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+
+section#cardapio nav ul li:nth-child(2n+2) {
+    margin-left: 1rem;
+}
+
+section#cardapio nav ul li:nth-child(2n) ~ li {
+    margin-top: 1rem;
+}
+
+nav ul li .container,
+nav ul li .container img {
+    border-radius: 1.875rem;
+}
+
+nav ul li .container {
+    position: relative;
+    max-width: 21.25rem;
+    max-height: 21.25rem;
+}
+
+nav ul li .container img {
+    object-fit: cover;
+    object-position: center;
+    width: 21.25rem;
+    height: 21.25rem;
+}
+
+nav ul li .text {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    width: 100%;
+    border-bottom-left-radius: 1.875rem;
+    border-bottom-right-radius: 1.875rem;
+
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav ul li .text p {
+    font-weight: bold;
+    font-size: 1.875rem;
+    line-height: 4rem;
+    text-align: center;
+    color: white;
+}
+
+.pratos {
+    margin: 0 auto;
+    padding-top: 1.5rem;
+}
+
+.prato {
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.7);
+
+    max-width: 15.625rem;
+    min-height: 18.75rem;
+}
+
+.prato {
+    float: left;
+}
+
+.prato:nth-child(3n+1) {
+    clear: left;
+}
+
+.pratos li ~ li {
+    margin-left: calc(13.125rem / 3);
+}
+
+.prato:nth-child(3n+4) {
+    margin-left: 0;
+}
+
+.prato:nth-child(3n) ~ .prato {
+    margin-top: 1rem;
+}
+
+.prato > .imagem {
+    align-self: center;
+    max-width: 15.625rem;
+    max-height: 12.5rem;
+}
+
+.prato > .imagem > img {
+    width: 15.625rem;
+    height: 12.5rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+.prato > .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 18px;
+    background-color: #D8D8D8;
+}
+
+.prato > .text > h3 {
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+    height: 50px;
+    text-align: center;
+}
+
+.prato > .text > p {
+    text-align: justify;
+    font-style: italic;
+    font-size: 1rem;
+
+    height: 5.375rem;
+    margin-bottom: 0.5rem;
+    overflow-y: auto;
+
+    opacity: 0.8;
+}
+
+section#cardapio > div#options > a {
+    position: absolute;
+    bottom: 0px;
+    align-self: center;
+    width: 9.375rem;
+    height: 3.125rem;
+    margin-bottom: 1.5rem;
+
+    border: 1px solid black;
+    border-radius: 1.5rem;
+    background-color: orange;
+
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 3.125rem;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 0.3125rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background: darkgray;
+    border-radius: 0.625rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: gray;
+}
