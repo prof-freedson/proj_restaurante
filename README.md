@@ -1,4 +1,4 @@
-PROJETO RESTAURANTE ESCOLA
+<h1>PROJETO RESTAURANTE ESCOLA</h1>
 
 # Passo a Passo para Executar o Site
  - Tenha a pasta "site" em seu computador;
